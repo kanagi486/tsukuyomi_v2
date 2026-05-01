@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Tsukuyomi</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="scanlines"></div>
+
+<audio id="bgm-audio" loop>
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<div id="boot-screen">
+  <h1 class="glitch-title">TSUKUYOMI</h1>
+  <p class="boot-status">> SYSTEM STATUS: READY</p>
+  <button id="init-button" onclick="initializeSystem()">[ INITIALIZE PROTOCOL ]</button>
+</div>
+
+<div id="main-ui" class="hidden">
+  <div class="header-section">
+    <div class="moon-logo">月</div>
+    <div class="project-name">TSUKUYOMI</div>
+  </div>
+
+  <div class="nav-tree">
+    <div class="org-block">
+      <div class="org-logo">TSUKUYOMI</div>
+      <div class="line-container"><div class="h-line"></div><div class="dot"></div></div>
+      <div class="links">
+        <a href="#">HOME</a><span class="sep">|</span>
+        <a href="#">STATUS</a><span class="sep">|</span>
+        <a href="#">CALCULATOR</a><span class="sep">|</span>
+        <a href="#">REGISTER</a><span class="sep">|</span>
+        <a href="#">LISTING</a>
+      </div>
+    </div>
+
+    <div class="org-block">
+      <div class="org-logo">RESOURCES</div>
+      <div class="line-container"><div class="h-line"></div><div class="dot"></div></div>
+      <div class="links">
+        <a href="#">GLOSSARY</a><span class="sep">|</span>
+        <a href="#">FAQ</a><span class="sep">|</span>
+        <a href="#">NEWS</a><span class="sep">|</span>
+        <a href="#">DATAVERSES</a>
+      </div>
+    </div>
+
+    <div class="org-block">
+      <div class="org-logo">SYNAPSE</div>
+      <div class="line-container"><div class="h-line"></div><div class="dot"></div></div>
+      <div class="links second-level">
+        <a href="#">EOT</a><span class="sep">|</span>
+        <a href="#">EXPLORE</a><span class="sep">|</span>
+        <a href="#">LFE</a><span class="sep">|</span>
+        <a href="https://discord.gg/BkTqwbW7Ux" target="_blank" class="highlight-link">DISCORD</a>
+      </div>
+    </div>
+
+    <div class="org-block">
+      <div class="org-logo riser">RISEN</div>
+      <div class="line-container"><div class="h-line"></div><div class="dot"></div></div>
+      <div class="links">
+        <a href="#">SYSTEMSPACE</a><span class="sep">|</span>
+        <a href="#">OUR GOAL</a><span class="sep">|</span>
+        <a href="#">EOT</a><span class="sep">|</span>
+        <a href="#">ABOUT</a>
+      </div>
+    </div>
+
+    <div class="org-block">
+      <div class="org-logo">[COMM-LINK]</div>
+      <div class="line-container"><div class="h-line"></div><div class="dot"></div></div>
+      <div class="links">
+        <a href="#">ANONYMOUS BOARD</a><span class="sep">|</span>
+        <a href="#">ARCHIVE</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
