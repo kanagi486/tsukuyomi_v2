@@ -26,6 +26,11 @@ body, html {
   pointer-events: none; /* 確保不會擋到點擊 */
 }
 
+body {
+  background-image: url('car.webp'); /* 只要檔案在同一個資料夾，這樣寫就行 */
+  background-size: cover;
+}
+
 /* 啟動螢幕樣式 */
 #boot-screen {
   position: fixed;
